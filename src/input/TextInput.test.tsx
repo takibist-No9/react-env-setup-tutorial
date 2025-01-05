@@ -24,5 +24,5 @@ test('TextInput Event Test Mod', async () => {
 
   const inputElement = screen.getByRole('textbox')
   await user.type(inputElement, 'Hello world')
-  expect(screen.getByText('Hello world')).toBeInTheDocument()
+  expect(screen.getByText('Hello world2')).toBeInTheDocument()
 })
