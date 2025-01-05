@@ -1,1 +1,2 @@
+echo "Husky running"
 npx lint-staged
