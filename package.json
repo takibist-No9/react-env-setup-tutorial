@@ -50,7 +50,7 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write",
-      "vitest"
+      "vitest --run"
     ]
   }
 }
